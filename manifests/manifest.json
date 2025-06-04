@@ -37,7 +37,7 @@
             "label" : {
               "en" : [ "FCIR" ]
             },
-          } ]
+          } 
         },
         "target" : "https://iiif.io/api/cookbook/recipe/0033-choice/canvas/p1"
       } ]
