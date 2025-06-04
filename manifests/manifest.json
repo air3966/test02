@@ -28,7 +28,7 @@
             "label" : {
               "en" : [ "RGB" ]
             },
-          }, {
+            {
             "id" : "https://air3966.github.io/test02/images/fcir/full/full/0/default.jpg",
             "type" : "Image",
             "format" : "image/jpeg",
