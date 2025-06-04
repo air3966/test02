@@ -9,6 +9,87 @@
     },
     "items": [
         {
+            "id": "https://air3966.github.io/test02/images/fcir/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "fcir"
+                ]
+            },
+            "height": 3648,
+            "width": 5472,
+            "items": [
+                {
+                    "id": "https://air3966.github.io/test02/images/fcir/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://air3966.github.io/test02/images/fcir/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://air3966.github.io/test02/images/fcir/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 171,
+                                                "height": 114
+                                            },
+                                            {
+                                                "width": 342,
+                                                "height": 228
+                                            },
+                                            {
+                                                "width": 684,
+                                                "height": 456
+                                            },
+                                            {
+                                                "width": 1368,
+                                                "height": 912
+                                            },
+                                            {
+                                                "width": 2736,
+                                                "height": 1824
+                                            },
+                                            {
+                                                "width": 5472,
+                                                "height": 3648
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 5472,
+                                        "@id": "https://air3966.github.io/test02/images/fcir",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3648,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://air3966.github.io/test02/images/fcir/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://air3966.github.io/test02/images/book_of_hours_verso_RGB/canvas/",
             "type": "Canvas",
             "label": {
