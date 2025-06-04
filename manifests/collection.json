@@ -1,0 +1,15 @@
+{
+  "id" : "https://air3966.github.io/test02/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in air3966/test02 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://air3966.github.io/test02/manifests/manifest.json",
+    "label" : {
+      "en" : [ "John Dee performing an experiment before Queen Elizabeth I." ]
+    },
+    "type" : "Manifest"
+  } ]
+}
