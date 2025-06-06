@@ -1,45 +1,75 @@
 {
-  "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "id" : "https://air3966.github.io/test02/manifests/manifest.json",
-  "type" : "Manifest",
-  "label" : {
-    "en" : [ "Test manifest of a manuscript leaf" ]
-  },
-  "items" : [ {
-    "id" : "https://iiif.io/api/cookbook/recipe/0033-choice/canvas/p1",
-    "type" : "Canvas",
-    "height" : 1271,
-    "width" : 2000,
-    "items" : [ {
-      "id" : "https://air3966.github.io/test02/manifest/annopage",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id" : "https://air3966.github.io/test02/manifest/anno",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "body" : {
-          "type" : "Choice",
-          "items" : [ {
-            "id" : "https://air3966.github.io/test02/images/book_of_hours_verso_RGB/full/full/0/default.jpg",
-            "type" : "Image",
-            "format" : "image/jpeg",
-            "width" : 5472,
-            "height" : 3648,
-            "label" : {
-              "en" : [ "RGB" ]
-            },
-            "id" : "https://air3966.github.io/test02/images/fcir/full/full/0/default.jpg",
-            "type" : "Image",
-            "format" : "image/jpeg",
-            "width" : 5472,
-            "height" : 3648,
-            "label" : {
-              "en" : [ "FCIR" ]
-            },
-          } 
-        },
-        "target" : "https://iiif.io/api/cookbook/recipe/0033-choice/canvas/p1"
-       ]
-    } 
-  } ]
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": "https://air3966.github.io/test02/manifests/manifest.json",
+	"type": "Manifest",
+	"label": {
+		"en": [
+			"Test manifest of a manuscript leaf"
+		]
+	},
+	"items": [
+		{
+			"id": "https://iiif.io/api/cookbook/recipe/0033-choice/canvas/p1",
+			"type": "Canvas",
+			"height": 1271,
+			"width": 2000,
+			"items": [
+				{
+					"id": "https://air3966.github.io/test02/manifest/annopage",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "https://air3966.github.io/test02/manifest/anno",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"type": "Choice",
+								"items": [
+									{
+										"id": "https://air3966.github.io/test02/images/book_of_hours_verso_RGB/full/full/0/default.jpg",
+										"type": "Image",
+										"format": "image/jpeg",
+										"width": 5472,
+										"height": 3648,
+										"label": {
+											"en": [
+												"RGB"
+											]
+										},
+										"service": [
+											{
+												"id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
+												"type": "ImageService3",
+												"profile": "level1"
+											}
+										]
+									},
+									{
+										"id": "https://air3966.github.io/test02/images/fcir/full/full/0/default.jpg",
+										"type": "Image",
+										"format": "image/jpeg",
+										"width": 5472,
+										"height": 3648,
+										"label": {
+											"en": [
+												"FCIR"
+											]
+										},
+										"service": [
+											{
+												"id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
+												"type": "ImageService3",
+												"profile": "level1"
+											}
+										]
+									}
+								]
+							},
+							"target": "https://iiif.io/api/cookbook/recipe/0033-choice/canvas/p1"
+						}
+					]
+				}
+			]
+		}
+	]
 }
