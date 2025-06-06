@@ -33,12 +33,31 @@
 										"height": 3648,
 										"label": {
 											"en": [
-												"RGB"
+												"approximate RGB visualization"
 											]
 										},
 										"service": [
 											{
 												"id": "https://air3966.github.io/test02/images/book_of_hours_verso_RGB",
+												"type": "ImageService2",
+												"profile": "level0"
+											}
+										]
+									},
+									{
+										"id": "https://air3966.github.io/test02/images/sam/full/full/0/default.jpg",
+										"type": "Image",
+										"format": "image/jpeg",
+										"width": 5472,
+										"height": 3648,
+										"label": {
+											"en": [
+												"SAM showing pigment transfer"
+											]
+										},
+										"service": [
+											{
+												"id": "https://air3966.github.io/test02/images/sam",
 												"type": "ImageService2",
 												"profile": "level0"
 											}
