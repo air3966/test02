@@ -38,9 +38,9 @@
 										},
 										"service": [
 											{
-												"id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
-												"type": "ImageService3",
-												"profile": "level1"
+												"id": "https://air3966.github.io/test02/images/book_of_hours_verso_RGB",
+												"type": "ImageService2",
+												"profile": "level0"
 											}
 										]
 									},
@@ -57,9 +57,9 @@
 										},
 										"service": [
 											{
-												"id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
-												"type": "ImageService3",
-												"profile": "level1"
+												"id": "https://air3966.github.io/test02/images/fcir",
+												"type": "ImageService2",
+												"profile": "level0"
 											}
 										]
 									}
