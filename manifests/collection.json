@@ -11,5 +11,11 @@
       "en" : [ "John Dee performing an experiment before Queen Elizabeth I." ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://air3966.github.io/test02/manifests/manifest0609.json",
+    "label" : {
+      "en" : [ "Test Manifest 2" ]
+    },
+    "type" : "Manifest"
   } ]
 }
