@@ -1,0 +1,215 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://air3966.github.io/test02/manifests/manifest0609.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Test Manifest 2" ]
+  },
+  "summary" : {
+    "en" : [ "A test manifest of a medieval manuscript leaf to show layer choice functionality using Digirati's Manifest editor. " ]
+  },
+  "requiredStatement" : {
+    "label" : {
+      "en" : [ "" ]
+    },
+    "value" : {
+      "en" : [ "" ]
+    }
+  },
+  "rights" : "http://creativecommons.org/licenses/by-nc/4.0/",
+  "items" : [ {
+    "id" : "https://workbench.gdmrdigital.com/projects/test02/manifests/canvas/bi0sb2aojpl-mbp57pff",
+    "type" : "Canvas",
+    "height" : 3648,
+    "width" : 5472,
+    "label" : {
+      "en" : [ "Book of Hours verso" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "none" : [ "" ]
+      },
+      "value" : {
+        "none" : [ "" ]
+      }
+    } ],
+    "rights" : "http://creativecommons.org/licenses/by/4.0/",
+    "thumbnail" : [ {
+      "id" : "https://iiif.archive.org/image/iiif/2/fcir_20250606%2ffcir.jp2/full/342,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 228,
+      "width" : 342
+    } ],
+    "items" : [ {
+      "id" : "https://workbench.gdmrdigital.com/projects/test02/manifests/iei0fwv92zk-mbp5788z/canvas/bi0sb2aojpl-mbp57pff/annotation-page/w85j2kdgwp9-mbp57pff",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://workbench.gdmrdigital.com/projects/test02/manifests/iei0fwv92zk-mbp5788z/canvas/bi0sb2aojpl-mbp57pff/annotation-page/w85j2kdgwp9-mbp57pff/annotation/e9m9tty56d-mbp610mi",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "RGB" ]
+        },
+        "summary" : {
+          "en" : [ "An approximate rendering of how the manuscript leaf visually appears." ]
+        },
+        "motivation" : "painting",
+        "target" : "https://workbench.gdmrdigital.com/projects/test02/manifests/iei0fwv92zk-mbp5788z/canvas/bi0sb2aojpl-mbp57pff",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/book_of_hours_verso_rgb_20250609%2fbook_of_hours_verso_RGB.jp2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3648,
+          "width" : 5472,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/book_of_hours_verso_rgb_20250609%2fbook_of_hours_verso_RGB.jp2",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 5472,
+            "height" : 3648,
+            "sizes" : [ {
+              "width" : 171,
+              "height" : 114
+            }, {
+              "width" : 342,
+              "height" : 228
+            }, {
+              "width" : 684,
+              "height" : 456
+            }, {
+              "width" : 1368,
+              "height" : 912
+            }, {
+              "width" : 2736,
+              "height" : 1824
+            }, {
+              "width" : 5472,
+              "height" : 3648
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 19961856,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      }, {
+        "id" : "https://workbench.gdmrdigital.com/projects/test02/manifests/iei0fwv92zk-mbp5788z/canvas/bi0sb2aojpl-mbp57pff/annotation-page/w85j2kdgwp9-mbp57pff/annotation/90ydmsq07q5-mbpdj6aj",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "SAM" ]
+        },
+        "summary" : {
+          "en" : [ "Maps the image based on the similarity of the spectral profile to the region of interest (in this case, the blue pigment inside the letter D). " ]
+        },
+        "motivation" : "painting",
+        "target" : "https://workbench.gdmrdigital.com/projects/test02/manifests/iei0fwv92zk-mbp5788z/canvas/bi0sb2aojpl-mbp57pff",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/sam_20250609%2fsam.jp2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3648,
+          "width" : 5472,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/sam_20250609%2fsam.jp2",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 5472,
+            "height" : 3648,
+            "sizes" : [ {
+              "width" : 171,
+              "height" : 114
+            }, {
+              "width" : 342,
+              "height" : 228
+            }, {
+              "width" : 684,
+              "height" : 456
+            }, {
+              "width" : 1368,
+              "height" : 912
+            }, {
+              "width" : 2736,
+              "height" : 1824
+            }, {
+              "width" : 5472,
+              "height" : 3648
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 19961856,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      }, {
+        "id" : "https://example.org/iei0fwv92zk-mbp5788z/annotation/a60hl38i01j-mbp57pfe",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "IRFC" ]
+        },
+        "summary" : {
+          "en" : [ "A visualization that shifts the color bands into the infrared, used for the purpose of pigment identification. " ]
+        },
+        "motivation" : "painting",
+        "target" : "https://example.org/iei0fwv92zk-mbp5788z/canvas/bi0sb2aojpl-mbp57pff",
+        "body" : {
+          "id" : "https://iiif.archive.org/image/iiif/2/fcir_20250606%2ffcir.jp2/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3648,
+          "width" : 5472,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/fcir_20250606%2ffcir.jp2",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 5472,
+            "height" : 3648,
+            "sizes" : [ {
+              "width" : 171,
+              "height" : 114
+            }, {
+              "width" : 342,
+              "height" : 228
+            }, {
+              "width" : 684,
+              "height" : 456
+            }, {
+              "width" : 1368,
+              "height" : 912
+            }, {
+              "width" : 2736,
+              "height" : 1824
+            }, {
+              "width" : 5472,
+              "height" : 3648
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16, 32 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 19961856,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
